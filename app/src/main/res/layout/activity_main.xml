@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:text="Chuyển đổi năm dương lịch"
+        android:textAlignment="center"
+        android:background="#0d7732"
+        android:textColor="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Năm dương lịch" />
+
+        <EditText
+            android:id="@+id/nhap"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/chuyendoi"
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:layout_marginLeft="550px"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Chuyển đổi"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Năm âm lịch" />
+        <TextView
+            android:id="@+id/kq"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:background="#f9cb13"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0d7732"
+        />
+
+
+</LinearLayout>
